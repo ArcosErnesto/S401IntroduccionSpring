@@ -3,7 +3,7 @@ package cat.itacademy.barcelonactiva.arcos.ernesto.s04.t01.n02.controllers;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api/v1")
 public class HelloWorldController {
 
     @GetMapping("/HelloWorld")
